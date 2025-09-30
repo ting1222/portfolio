@@ -1,0 +1,1179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 手機板 */
+
+/* ====================== header =========================*/
+.navbar {
+    background-color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: none;
+}
+
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #292F36;
+    font-family: "Jost";
+}
+
+.hamburger {
+    display: block;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* ====================== banner =========================*/
+
+#banner {
+    font-family: "DM Serif Display";
+    padding: 66px 0px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: url(../images/phone/Banner.png) no-repeat;
+    background-size: auto 100%;
+    border-bottom-left-radius: 150px;
+    background-position: right bottom;
+
+}
+
+.container {
+    font-family: "Jost";
+    width: 70%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-family: "Noto Serif";
+}
+
+#desc {
+    font-family: "Jost";
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 10px auto;
+
+}
+
+#btn {
+    font-family: "Jost";
+    font-weight: bold;
+    background-color: #292F36;
+    font-size: 1.125rem;
+    padding: 20px 30px;
+    border-radius: 18px;
+    color: white;
+    font-family: "Jost";
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+
+}
+
+#btn i {
+    font-size: 1.25rem;
+    color: #CDA274;
+    margin-left: 5px;
+}
+
+/* ========================= work ========================= */
+
+.Work {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.work1 {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+h4 {
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.work1 p {
+    text-align: center;
+}
+
+.read-more {
+    padding-top: 2rem;
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.read-more i {
+    color: #CDA274;
+    padding-left: 8px;
+}
+
+/*========================= about us =========================*/
+
+.About-us {
+    margin-top: 10%;
+
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img {
+    width: 90%;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    margin-bottom: 10%;
+
+}
+
+.About-info {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap
+}
+
+.About-us h2 {
+    width: 70%;
+    margin: auto;
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.About-info .desc {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: "Jost";
+}
+
+.phone {
+    display: flex;
+    gap: 16px;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+.phone img {
+    width: 93px;
+    height: 93px;
+    flex-shrink: 0;
+}
+
+.phone-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.call {
+    font-family: "Jost";
+}
+
+.phone-text h4 {
+    color: #4D5053;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+}
+
+.About-info #btn {
+    margin: auto;
+}
+
+/*========================= People-think =========================*/
+
+.People-think {
+    padding: 5%;
+    text-align: center;
+    margin: 10% auto;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #f1e2d2;
+}
+
+.PT-title {
+    margin-bottom: 30px;
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 1.3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+
+.people-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.peoplecard-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.peoplepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.people-info .name {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.people-info .location {
+    font-size: 0.875rem;
+    color: #666;
+    margin: 4px 0 0;
+}
+
+.think {
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/*========================= customer logo =========================*/
+.c-logo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 100px;
+}
+
+/*========================= project =========================*/
+.Project {
+    width: 90%;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.pic {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #4D5053;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 33px */
+    letter-spacing: 1px;
+}
+
+.project-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+}
+
+.name-group p {
+    color: #4D5053;
+
+    font-family: "Jost";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item:nth-child(1) .pic {
+    border-top-right-radius: 50px;
+}
+
+.item:nth-child(2) .pic {
+    border-top-left-radius: 50px;
+}
+
+.item:nth-child(3) .pic {
+    border-bottom-right-radius: 50px;
+}
+
+.item:nth-child(4) .pic {
+    border-bottom-left-radius: 50px;
+}
+
+.title-group {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-group h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'DM Serif Display', serif;
+}
+
+/*========================= stats =========================*/
+.Stats {
+    padding: 50px 20px;
+    background-color: #F4F0EC;
+    text-align: center;
+}
+
+.stats-wrapper {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+.stat-item {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+}
+
+.stat-item::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50px;
+    background-color: #d8cfc8;
+}
+
+.stat-item:nth-child(2)::after,
+.stat-item:nth-child(4)::after {
+    display: none;
+}
+
+.stat-number {
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    color: #c39977;
+    margin: 0;
+}
+
+.stat-title {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0 0;
+}
+
+
+/*========================= news =========================*/
+
+#News {
+    padding-top: 20px;
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.title-group {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: "Noto Serif";
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.article-item {
+    width: 100%;
+    padding: 20px;
+    border-radius: 60px;
+    border: 1px solid #E7E7E7;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in;
+}
+
+.pic-frame {
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.article-title {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.link-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    color: #4D5053;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    color: #292F36;
+    text-decoration: none;
+    background-color: #e3dad1;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.tag {
+    position: absolute;
+    background-color: #E7E7E7;
+    padding: 10px;
+    border-radius: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    left: 10px;
+    bottom: 10px;
+
+}
+
+
+/*========================= contact =========================*/
+.news-container {
+    font-family: "Jost";
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.contact {
+    background-color: #232323;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contact-title {
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-desc {
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.1rem;
+}
+
+.contact-button {
+    text-align: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.36px;
+    background-color: #c39977;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-button i {
+    color: #333;
+}
+
+.contact-button:hover {
+    background-color: #a07855;
+}
+
+/*========================= footer =========================*/
+.footer {
+    padding: 50px 20px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer-logo img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.footer-container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column a {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    display: block;
+    line-height: 40px;
+}
+
+.footer-column p {
+    margin-bottom: 15px;
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+}
+
+.footer-column:nth-child(4) p {
+    font-size: 0.9rem;
+
+}
+
+.footer-column:nth-child(2),
+.footer-column:nth-child(3) {
+    display: none;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #232323;
+}
+
+.footer-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-desc {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #c39977;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    color: #747474;
+    font-family: "Jost";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer h4 {
+    text-align: left;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #c39977;
+}
+
+/* 底部 */
+.footer-bottom {
+    font-size: 0.9rem;
+    font-family: "Jost";
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #777;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+@media screen and (min-width:481px) {
+
+    /* 平板 */
+    /* header */
+    .nav-menu {
+        flex-direction: row;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+
+    /* banner */
+    #banner {
+        height: 400px;
+        background: url(../images/tablet/Banner.png) no-repeat;
+        background-size: cover;
+        justify-content: flex-start;
+        background-position: right bottom;
+        border-bottom-left-radius: 150px;
+    }
+
+    #banner .container {
+        width: 50%;
+        margin-left: 40px;
+        align-items: center;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    /* work */
+    .Work {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+
+    .work1 {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    /* about */
+    .About-us {
+        margin: 5% auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .about-img {
+        width: 50%;
+        flex-shrink: 0;
+    }
+
+
+    .about-img img {
+        width: 100%;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .About-us h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .About-info .desc {
+        width: 100%;
+        text-align: left;
+    }
+
+    .About-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .About-info #btn {
+        width: auto;
+        font-size: 1rem;
+        margin: 0;
+        display: block;
+        text-align: left;
+    }
+
+    .phone {
+        width: auto;
+        margin: 0;
+        text-align: left;
+        align-items: center;
+    }
+
+    /* People-think */
+    .People-think {
+        padding: 10%;
+        width: 70%;
+        border-radius: 20px;
+    }
+
+    .card-container {
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    /* project */
+    .Project {
+        width: 70%;
+        margin: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    /* stat */
+    .stat-item {
+        flex: 0 0 25%;
+    }
+
+    .stat-item::after {
+        display: block;
+    }
+
+    .stat-item:last-child::after {
+        display: none;
+    }
+
+    .stat-item:nth-child(2)::after {
+        display: block;
+    }
+
+
+    /* news */
+    .article-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .article-item {
+        width: 48%;
+    }
+
+    .sub-title {
+        width: 60%;
+    }
+
+    .pic-frame {
+        margin-bottom: 10px;
+    }
+
+    /* contact */
+    .contact-button {
+        margin: auto;
+        width: 30%;
+    }
+
+    /* footer */
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer-column {
+        flex: 1;
+        text-align: left;
+        padding: 0px 20px;
+    }
+
+    .footer-column:nth-child(2) {
+        display: block;
+        text-indent: 50px;
+    }
+
+    .contact {
+        width: 60%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:835px) {
+
+    /* 電腦版 */
+    /* header */
+    .hamburger {
+        display: none;
+    }
+
+    /* banner */
+    #banner {
+        height: 900px;
+        background: url(../images/Banner.jpg) no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: 360px;
+        padding: 66px 100px;
+        background-position: right bottom;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #banner .container {
+        width: 30%;
+        background-color: rgba(255, 255, 255, 0.7);
+
+    }
+
+    .container {
+        width: 85%;
+        background-color: rgba(255, 255, 255, 0.7);
+
+    }
+
+    /* about */
+
+    .work1 {
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+    }
+
+    .About-us {
+        width: 50%;
+
+    }
+
+    .about-img {
+        width: 50%;
+        flex-shrink: 0;
+    }
+
+
+    .about-img img {
+        width: 100%;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 150px;
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .About-us {
+        margin: auto;
+        gap: 10%;
+        padding-top: 5%;
+    }
+
+    .About-us h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .About-info .desc {
+        width: 100%;
+        text-align: left;
+    }
+
+    .About-info #btn {
+        width: auto;
+        font-size: 1rem;
+        margin: 0;
+        display: block;
+        text-align: left;
+    }
+
+    .phone {
+        max-width: 320px;
+        width: auto;
+        margin: 0;
+        text-align: left;
+        align-items: center;
+    }
+
+    /* People-think */
+    .People-think {
+        padding: 3%;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .people-card {
+        width: 30%;
+    }
+
+    /* stat */
+    .stats-wrapper {
+        width: 50%;
+    }
+
+    /* news */
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .article-item:hover {
+        background-color: #E7E7E7;
+    }
+
+    .read:hover {
+        background-color: rgb(183, 170, 132);
+
+    }
+
+    .article-item {
+        width: 32%;
+    }
+
+    .pic-frame {
+        margin-bottom: 20px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu li a:hover {
+        color: #72642c;
+
+    }
+
+    #btn:hover {
+        background-color: #788ca3;
+
+    }
+
+    .read-more:hover {
+
+        color: #a08e4c;
+
+    }
+
+    .read-more i:hover {
+        color: #432b12;
+    }
+
+    .footer-column:nth-child(3) {
+        display: block;
+    }
+
+    .footer {
+        margin: auto;
+        width: 60%;
+    }
+}
